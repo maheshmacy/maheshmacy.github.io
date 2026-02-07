@@ -1,0 +1,103 @@
+/* Requirement 1: CSS selector styling HTML tags */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin: 0 0 0.3rem 0;
+    color: #222;
+}
+
+/* Requirement 3: id selector styled */
+#hero {
+    background-color: #1a73e8;
+    color: #fff;
+    text-align: center;
+    /* Requirement 7: box model properties (padding, margin) */
+    padding: 3rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#hero p {
+    margin: 0.3rem 0;
+}
+
+/* Requirement 8: image styling */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 1rem;
+}
+
+/* Requirement 2: class applied to multiple elements and styled */
+.section {
+    max-width: 750px;
+    margin: 0 auto 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    /* Requirement 7: more box model properties */
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.card p {
+    margin: 0.2rem 0;
+    color: #555;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Requirement 5 & 6: anchor styling + hover color change */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #d93025;
+}
+
+#hero a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#hero a:hover {
+    color: #ffcdd2;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #888;
+    font-size: 0.9rem;
+}
